@@ -13,23 +13,51 @@
     - [Prerequisites ](#prerequisites-)
   - [Usage ](#usage-)
   - [👥 Authors ](#-authors-)
+  - [🔭 Future Features](#future-features)
   - [❓ FAQ ](#-faq-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show Your Support ](#️-show-your-support-)
+  - [🙏 Acknowledgements](#acknowledgements)
   - [📜 License ](#-license-)
 
 ## 📖 Blog_App <a name="about-project"></a>
 
 The Blog app is a classic blog website. This application, is a fully functional website that displays a list of posts and allows readers to interact with them by adding comments and liking posts.
 
-## 🛠 Tech-stack <a name="tech-stack"></a>
-
-This project is implemented using the Ruby on Rails programming language, known for its elegant syntax and flexibility. RoR provides a suitable foundation for this Blog_App code decoding project due to its ease of use and string manipulation capabilities.
-
 
 ## 🛠 Built With <a name="built-with"></a>
 
 This project is built using Ruby on Rails, a dynamic, open-source programming language known for its simplicity and productivity. Ruby's elegant syntax and powerful features make it a popular choice among developers.
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <ul>
+    <li>
+      <a href="https://www.ruby-lang.org/en/">
+        <img src="https://skillicons.dev/icons?i=ruby"/> Ruby
+      </a>
+    </li>
+    <li>
+      <a href="https://rubyonrails.org/">
+        <img src="https://skillicons.dev/icons?i=rails"/> Rails
+      </a>
+    </li>
+    <li>
+      <a href="https://www.postgresql.org/">
+        <img src="https://skillicons.dev/icons?i=postgresql"/> PostgreSQL
+      </a>
+    </li>
+    <li>
+      <a href="https://www.sass-lang.com/">
+        <img src="https://skillicons.dev/icons?i=sass"/> Sass
+      </a>
+    </li>
+    <li>
+      <a href="https://www.w3schools.com/html/">
+        <img src="https://skillicons.dev/icons?i=html"/> HTML5
+      </a>
+    </li>
+  </ul>
 
 ## Key Features <a name="key-features"></a>
 - [x] **Rails new (setup)**
@@ -83,6 +111,16 @@ Follow these steps to use the program:
 5. You can now interact with the app, create posts, add comments, and explore its features.
 
 
+### Run tests <a name="run-tests"></a>
+
+To execute the tests, run the following command inside the project folder:
+
+```bash
+ rspec
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 👥 Authors <a name="authors"></a>
 
 This project was developed by:
@@ -90,6 +128,25 @@ This project was developed by:
 👤 **Maximo Ortelli**
 -   GitHub: [@Maximo Ortelli](https://github.com/maximoortelli)
 -   LinkedIn: [@Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda/)
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [x] Creating a data model.
+- [x] Processing data in models.
+- [ ] Validations and Model specs.
+- [ ] Controllers.
+- [ ] Controllers specs.
+- [ ] Views.
+- [ ] Forms.
+- [ ] Integration specs for Views and fixing n+1 problems.
+- [ ] Add Devise.
+- [ ] Add authorization rules.
+- [ ] Add API endpoints.
+- [ ] API documentation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ <a name="faq"></a>
 
