@@ -18,9 +18,4 @@ class Post < ApplicationRecord
   def update_post_counter
     author.update(post_counter: author.posts.count)
   end
-
-  def update_comments_counter
-    self.comments_counter = comments.count
-    save
-  end
 end
